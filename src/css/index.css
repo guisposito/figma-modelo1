@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+a:hover {
+    color: #111111;
+}
+
+#dropdown:hover .dropdown-content{
+    display: block;
+}
+
+#bg-header { 
+    background: url('../img/bg-header.jpg') no-repeat center;
+}
