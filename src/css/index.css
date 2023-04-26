@@ -2,15 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
-
 a:hover {
     color: #111111;
 }
-
 #dropdown:hover .dropdown-content{
     display: block;
 }
-
 #bg-header { 
     background: url('../img/bg-header.jpg') no-repeat center;
+}
+.btn-filter {
+    width: 121px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #E6E6E6;
+}
+.btn-filter:hover, .btn-filter:focus{
+    background: black;
+    color:#E6E6E6;
 }
