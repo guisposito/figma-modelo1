@@ -14,6 +14,7 @@ module.exports = {
         'foundation-grey-400':'#545454', 
         'bg-grey-100':'#939498',
         'bg-grey-200':'#7B7E83',
+        'ft-grey-100':'#383838',
       },
     },
   },

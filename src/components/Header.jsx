@@ -28,7 +28,7 @@ function Header() {
                     <li id="dropdown" className="relative transition-all duration-30 cursor-pointer">
                         <a href="#">Women</a>
                         <ul class="dropdown-content absolute right-0 left-0 hidden text-sm bg-white w-36 transition-all duration-300">
-                            <li class="p-1"><a href="#">Women Tees</a></li>
+                            <li class="p-1"><a href="#">Women Teens</a></li>
                             <li class="p-1"><a href="#">Women Trousers</a></li>
                             <li class="p-1"><a href="#">Women Tank Tops</a></li>
                         </ul>
@@ -61,7 +61,7 @@ function Header() {
                 </div>
             </div>
             <div className="bg-img bg-gradient-to-b from-bg-grey-100 to-bg-grey-200">
-                <div className="card-img w-screen flex justify-start items-center h-[667px] bg-gradient-to-b from-bg-grey-200 to-bg-grey-100" id="bg-header">
+                <div className="flex justify-start items-center h-[667px] bg-gradient-to-b from-bg-grey-200 to-bg-grey-100" id="bg-header">
                     <div className="text-left flex-col mx-auto container">
                         <h2 className="flex-row text-xl font-medium font-raleway">{textheader}</h2>
                         <p className="flex-row leading-[120%] text-6xl mt-3 w-[600px] font-semibold font-josefins">{textheaderlg}</p>
