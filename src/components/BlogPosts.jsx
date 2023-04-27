@@ -4,6 +4,7 @@ const BlogPosts = ({blogposts}) => {
              {blogposts.map(post => (
                 <div className="font-josefins text-ft-grey-100 w-[300px] relative " key={post.title}>
                     <a href="#">
+                        <h2>{post.title}</h2>
                         <img className="rounded" src={"../img/products/" + post.img} alt={post.alt} width="300" height="383" />
                     </a>
                     
