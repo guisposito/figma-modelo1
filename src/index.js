@@ -4,7 +4,9 @@ import './css/index.css';
 import Header from './components/Header';
 import CardCategory from './components/CardCategory';
 import CardProducts from './components/CardProducts';
+import CardBlog from './components/CardBlog';
 import reportWebVitals from './reportWebVitals';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -12,6 +14,7 @@ root.render(
     <Header />
     <CardCategory />
     <CardProducts />
+    <CardBlog />
   </React.StrictMode>
 );
 

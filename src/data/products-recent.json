@@ -1,0 +1,34 @@
+[
+    {
+        "name":"TOM TAILOR OLIVE 9",
+        "brand":"Parka",
+        "price": 1440 ,
+        "sell": false,
+        "img":"product9.jpg",
+        "alt":"TOM TAILOR OLIVE 9"
+    },
+    {
+        "name":"TOM TAILOR OLIVE 10",
+        "brand":"Max",
+        "price": 1440 ,
+        "sell": true,
+        "img":"product10.jpg",
+        "alt":"TOM TAILOR OLIVE 10"
+    },
+    {
+        "name":"TOM TAILOR OLIVE 11",
+        "brand":"Cindel",
+        "price": 1440 ,
+        "sell": true,
+        "img":"product11.jpg",
+        "alt":"TOM TAILOR OLIVE 11"
+    },
+    {
+        "name":"TOM TAILOR OLIVE 12",
+        "brand":"Parka",
+        "price": 1440 ,
+        "sell": false,
+        "img":"product12.jpg",
+        "alt":"TOM TAILOR OLIVE 12"
+    }
+]

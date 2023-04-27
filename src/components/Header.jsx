@@ -1,6 +1,3 @@
-import logo from '../img/logo.png';
-import bgheader from '../img/bg-header.jpg';
-
 function Header() {
     const textheader = "Premium High Waisted";
     const textheaderlg = "Women Tracks NOW Available";
@@ -18,7 +15,7 @@ function Header() {
             <div className="header-menu container flex items-center justify-between mx-auto h-[100px] ">
                 <div className="logo flex items-center">
                     <a href="#">
-                        <img src={logo} width="36" height="40" alt="" />
+                        <img src={`${process.env.PUBLIC_URL}/img/logo.png`} width="36" height="40" alt="" />
                     </a>
                 </div>
                 <ul className="list-menu flex gap-8 text-foundation-grey-400 font-semibold">
@@ -65,7 +62,7 @@ function Header() {
                     <div className="text-left flex-col mx-auto container">
                         <h2 className="flex-row text-xl font-medium font-raleway">{textheader}</h2>
                         <p className="flex-row leading-[120%] text-6xl mt-3 w-[600px] font-semibold font-josefins">{textheaderlg}</p>
-                        <button className="mt-6 w-44 h-14 bg-black  uppercase text-white">Shop Now</button>
+                        <button className="mt-6 w-44 h-14 bg-black  uppercase text-white hover:text-slate-400">Shop Now</button>
                     </div>
                 </div>
             </div>
