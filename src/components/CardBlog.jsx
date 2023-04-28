@@ -20,7 +20,7 @@ const CardBlog = () => {
   return (
     <section className="h-[800px] mt-20 container mx-auto">
       <TextHeader text={"Our Blogs"}/>
-      <div className="slider container mx-auto flex justify-center items-center ml-12">
+      <div className="slider container mx-auto flex justify-center items-center ml-2">
         <Slider className="mx-auto container" {...settings}>
           {Data.map((post) => (
             <div className="font-josefins text-ft-grey-100 w-[620px] h-[562px] relative mt-14" key={post.id}>

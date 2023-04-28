@@ -57,8 +57,8 @@ function Header() {
                     </div>
                 </div>
             </div>
-            <div className="bg-img bg-gradient-to-b from-bg-grey-100 to-bg-grey-200">
-                <div className="flex justify-start items-center h-[667px] bg-gradient-to-b from-bg-grey-200 to-bg-grey-100" id="bg-header">
+            <div className="bg-img  bg-gradient-to-b from-bg-grey-100 to-bg-grey-200">
+                <div className="flex justify-start items-center h-[667px] bg- bg-gradient-to-b from-bg-grey-200 to-bg-grey-100" id="bg-header">
                     <div className="text-left flex-col mx-auto container">
                         <h2 className="flex-row text-xl font-medium font-raleway">{textheader}</h2>
                         <p className="flex-row leading-[120%] text-6xl mt-3 w-[600px] font-semibold font-josefins">{textheaderlg}</p>
