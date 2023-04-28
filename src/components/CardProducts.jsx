@@ -1,19 +1,19 @@
 import Products from "./Products.jsx";
 import RecentArrivals from "./RecentArrivals.jsx";
 import Data from "../data/products.json";
+import TextHeader from "./utils/TextHeader.jsx";
 
 function CardProducts(){
     let el = document.querySelectorAll(".btn-filter");
     el.forEach(e => {
         e.addEventListener("click", (ev)=>{
             ev.preventDefault();
+            return
         });
     })
     return(
         <section className="card-products container mx-auto font-josefins mt-[80px] h-[2500px]">
-            <div className="txt-header flex items-center justify-center mb-12 text-5xl">
-                <h3 className="font-medium">Trending Product</h3>
-            </div>
+            <TextHeader text={"Trending Products"}/>
             <div className="filter-buttons flex justify-center gap-3 mt-12">
                 <a className="btn-filter" href="#">All</a>
                 <a className="btn-filter" href="#">Shorts</a>
