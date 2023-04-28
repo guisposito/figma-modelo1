@@ -15,6 +15,7 @@ module.exports = {
         'bg-grey-100':'#939498',
         'bg-grey-200':'#7B7E83',
         'ft-grey-100':'#383838',
+        'ft-grey-200':'#E6E6E6'
       },
     },
   },

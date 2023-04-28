@@ -5,6 +5,7 @@ import Header from './components/Header';
 import CardCategory from './components/CardCategory';
 import CardProducts from './components/CardProducts';
 import CardBlog from './components/CardBlog';
+import SocialMedia from './components/SocialMidia';
 import reportWebVitals from './reportWebVitals';
 
 
@@ -15,10 +16,8 @@ root.render(
     <CardCategory />
     <CardProducts />
     <CardBlog />
+    <SocialMedia />
   </React.StrictMode>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();

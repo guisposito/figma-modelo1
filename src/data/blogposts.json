@@ -1,42 +1,42 @@
 [
     {
         "id":"1",
-        "title": "Teste1",
-        "description": "",
-        "category": "",
-        "img":"",
-        "alt":"",
-        "published":"true",
-        "publish-date": ""
+        "title": "How to dress up for casual/party season?",
+        "description": "The holidays are just around the corner, and that means party season is in full swing! If you're not sure what to wear to...",
+        "category": "Lifestyle",
+        "img":"blog1.jpg",
+        "alt":"blog1 image",
+        "published":true,
+        "publish": "12 AUG"
     },
     {
         "id":"2",
-        "title": "Teste2",
-        "description": "",
-        "category": "",
-        "img":"",
-        "alt":"",
-        "published":"true",
-        "publish-date": ""
+        "title": "How to dress up for casual/party season?",
+        "description": "The holidays are just around the corner, and that means party season is in full swing! If you're not sure what to wear to...",
+        "category": "Lifestyle",
+        "img":"blog2.jpg",
+        "alt":"blog2 image",
+        "published":true,
+        "publish": "12 AUG"
     },
     {
-        "id":"2",
-        "title": "Teste2",
-        "description": "",
-        "category": "",
-        "img":"",
-        "alt":"",
-        "published":"true",
-        "publish-date": ""
+        "id":"3",
+        "title": "The initial D in Holydays",
+        "description": "The holidays are just around the corner, and that means party season is in full swing! If you're not sure what to wear to...",
+        "category": "Hobbie",
+        "img":"blog3.jpg",
+        "alt":"blog3 image",
+        "published":true,
+        "publish": "13 AUG"
     },
     {
-        "id":"2",
-        "title": "Teste2",
-        "description": "",
-        "category": "",
-        "img":"",
-        "alt":"",
-        "published":"true",
-        "publish-date": ""
+        "id":"4",
+        "title": "The cats of nature or not?",
+        "description": "The holidays are just around the corner, and that means party season is in full swing! If you're not sure what to wear to...",
+        "category": "Workstyle",
+        "img":"blog4.jpg",
+        "alt":"blog4 image",
+        "published":true,
+        "publish": "14 AUG"
     }
 ]
