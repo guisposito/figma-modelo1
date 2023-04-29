@@ -1,0 +1,22 @@
+[
+    {
+        "img":"image1.jpg",
+        "alt":"image1",
+        "social": false
+    },
+    {
+        "img":"image2.jpg",
+        "alt":"image2",
+        "social": true
+    },
+    {
+        "img":"image3.jpg",
+        "alt":"image3",
+        "social": true
+    },
+    {
+        "img":"image4.jpg",
+        "alt":"image4",
+        "social": false
+    }
+]

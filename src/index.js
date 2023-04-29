@@ -6,6 +6,7 @@ import CardCategory from './components/CardCategory';
 import CardProducts from './components/CardProducts';
 import CardBlog from './components/CardBlog';
 import SocialMedia from './components/SocialMidia';
+import Footer from './components/Footer';
 import reportWebVitals from './reportWebVitals';
 
 
@@ -17,6 +18,7 @@ root.render(
     <CardProducts />
     <CardBlog />
     <SocialMedia />
+    <Footer />
   </React.StrictMode>
 );
 

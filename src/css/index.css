@@ -2,9 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-a:hover {
+header a:hover {
     color: #111111;
 }
+footer a:hover {
+    color: grey;
+}
+
 #dropdown:hover .dropdown-content{
     display: block;
 }
