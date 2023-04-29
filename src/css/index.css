@@ -9,9 +9,6 @@ footer a:hover {
     color: grey;
 }
 
-#dropdown:hover .dropdown-content{
-    display: block;
-}
 #bg-header { 
     background: url('../img/bg-header.jpg') no-repeat center;
 }

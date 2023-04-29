@@ -14,6 +14,7 @@ function Products({products}){
                     
                 </div>
             ))}
+            
         </div>
     );
 }

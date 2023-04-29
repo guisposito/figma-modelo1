@@ -22,10 +22,10 @@ function Header() {
                     <li><a href="#">Home</a></li>
                     <li><a href="#">New Arrivals</a></li>
                     <li><a href="#">Men</a></li>
-                    <li id="dropdown" className="relative transition-all duration-30 cursor-pointer">
+                    <li id="dropdown" className="relative group transition-all duration-1000 ease-in-out cursor-pointer">
                         <a href="#">Women</a>
-                        <ul class="dropdown-content absolute right-0 left-0 hidden text-sm bg-white w-36 transition-all duration-300">
-                            <li class="p-1"><a href="#">Women Teens</a></li>
+                        <ul class="dropdown-content group-hover:block overflow-auto absolute right-0 left-0 hidden text-sm bg-white h-28 w-40">
+                            <li class="p-1 mt-4"><a href="#">Women Teens</a></li>
                             <li class="p-1"><a href="#">Women Trousers</a></li>
                             <li class="p-1"><a href="#">Women Tank Tops</a></li>
                         </ul>
